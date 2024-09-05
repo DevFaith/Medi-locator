@@ -1,0 +1,195 @@
+.howitworks h1 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7f7fff;
+    margin: 200px auto 0 auto;
+}
+
+.howitworks p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto 0 auto;
+}
+
+.how-it-works {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3em 0;
+    margin-top: 20px;
+}
+
+.how-it-works .card {
+    height: 450px;
+    width: 320px;
+    background-color: #FAEEFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.how-it-works .card h4 {
+    text-align: center;
+    color: #7f7fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.how-it-works p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 0;
+}
+
+.how-it-works button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #7f7fff;
+    margin-top: 30px;
+}
+
+.howitworks button {
+    margin: 50px auto 50px auto;
+}
+
+.howitworks .sign-up {
+    text-decoration: none;
+    color: white;
+}
+
+.how-it-works .card:hover {
+    animation: transform 1s ease-in-out infinite;
+}
+
+@keyframes transform {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.howitworks h1 {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7f7fff;
+    margin: 200px auto 0 auto;
+}
+
+.howitworks p {
+    font-size: 20px;
+    text-align: center;
+    margin: 15px auto 0 auto;
+}
+
+.how-it-works {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3em 0;
+    margin-top: 20px;
+}
+
+.how-it-works .card {
+    height: 450px;
+    width: 320px;
+    background-color: #FAEEFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    margin: 10px;
+    box-shadow: 0 0.25em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.how-it-works .card h4 {
+    text-align: center;
+    color: #7f7fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.how-it-works p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    margin: 0;
+}
+
+.how-it-works button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: lighter;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #7f7fff;
+    margin-top: 30px;
+}
+
+.howitworks button {
+    margin: 50px auto 50px auto;
+}
+
+.howitworks .sign-up {
+    text-decoration: none;
+    color: white;
+}
+
+.how-it-works .card:hover {
+    animation: transform 1s ease-in-out infinite;
+}
+
+@keyframes transform {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
