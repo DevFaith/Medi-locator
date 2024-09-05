@@ -1,0 +1,113 @@
+/* Ensure the navbar stays at the top and spans the full width */
+.navbar {
+    position: fixed;
+    /* Make the navbar fixed */
+    top: 0;
+    /* Align it to the top */
+    left: 0;
+    /* Align it to the left */
+    width: 100%;
+    /* Span the full width */
+    background-color: #fff;
+    /* Optional: Set background color for visibility */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Add a shadow for a subtle effect */
+    z-index: 1000;
+    /* Ensure it's above other content */
+}
+
+/* Container for navbar contents */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Adjust padding as needed */
+    height: 80px;
+    /* Adjust height as needed */
+}
+
+/* Styling for desktop menu items */
+.desktopMenu {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Styling for mobile menu icon */
+.navbar-menu-icon {
+    display: none;
+    /* Hidden by default */
+}
+
+/* Styling for mobile menu */
+.navbar-mobile-menu {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    top: 60px;
+    /* Adjust based on navbar height */
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for mobile menu */
+}
+
+/* Show the mobile menu when active */
+.navbar-mobile-menu.active {
+    display: block;
+}
+
+/* Menu items styling */
+.navbar-item,
+.mobile-item {
+    margin: 0 10px;
+    /* Adjust spacing as needed */
+    text-decoration: none;
+    color: #333;
+    /* Adjust text color as needed */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu,
+.mobile-dropdown {
+    display: none;
+    /* Hidden by default */
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Mobile menu icon styling */
+.navbar-menu-icon {
+    display: block;
+    /* Show on mobile */
+}
+
+/* Additional styling as needed */
+#logo {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.navbar-menu desktopMenu {
+    font-size: 20px;
+}
+
+.dropdown-toggle {
+    border-radius: 4px;
+    height: 35px;
+    width: 100px;
+    background-color: #fff;
+}
+
+.navbar-signup-btn {
+    border-radius: 4px;
+    background-color: #fff;
+    display: flex;
+
+}
