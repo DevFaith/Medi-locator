@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import React, { useState } from 'react';
 import '../../Styles/Signup.css'
 
+
 import { FcGoogle } from "react-icons/fc";
 import { signInWithPopup, GoogleAuthProvider, createUserWithEmailAndPassword, getAuth } from "firebase/auth";
 import { db } from '../../configs/firebase';
@@ -80,8 +81,6 @@ function Signup() {
                         <input type='number' placeholder='Enter phonenumber...' name="phonenumber" required
                             onChange={(e) => setPassword(e.target.value)} />
                     </label>
-
-
 
                     <label htmlFor="password">Password
 
