@@ -75,3 +75,17 @@ textarea:focus {
     display: flex;
     border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+    .contactpage {
+        width: 90%;
+    }
+
+    .contactpage form {
+        width: 100%;
+    }
+
+    .contactpage h1 {
+        font-size: 30px;
+    }
+}
